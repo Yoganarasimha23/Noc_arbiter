@@ -1,0 +1,1 @@
+s1(16Feb2023:22:09:29):  xrun -access +rwc -f compile_list.f -uvmhome CDNS-1.1d +UVM_TESTNAME=axi_master_write_test 

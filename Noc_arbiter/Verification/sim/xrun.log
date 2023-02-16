@@ -1,0 +1,670 @@
+xrun(64): 20.09-s009: (c) Copyright 1995-2021 Cadence Design Systems, Inc.
+TOOL:	xrun(64)	20.09-s009: Started on Feb 16, 2023 at 22:09:27 IST
+xrun
+	-access +rwc
+	-f compile_list.f
+		./../../PS_NoC_RTL/NOC_Arbiter_TOP.sv
+		./../../PS_NoC_RTL/amba_axi_m2s6.v
+		./../../PS_NoC_RTL/axi_apb_bridge.sv
+		./../uvme/top/axi_master_if.sv
+		./../uvme/top/axi_slave_if.sv
+		./../uvme/top/apb_slave_if.sv
+		./../uvme/package/noc_arbiter_package.sv
+		./../uvme/top/noc_arbiter_top.sv
+	-uvmhome CDNS-1.1d
+	+UVM_TESTNAME=axi_master_write_test
+DEFINE gpdk045 /tools/cadence/FOUNDRY/analog/45nm/gpdk045
+|
+xrun: *W,DLCPTH (/home/vvtrainee20/cds.lib,5): cds.lib Permission denied '/tools/cadence/FOUNDRY/analog/45nm/gpdk045' (cds.lib command ignored).
+DEFINE EXTRACT Desktop/virtuoso/EXTRACT
+|
+xrun: *W,DLCPTH (/home/vvtrainee20/cds.lib,6): cds.lib Invalid path '/home/vvtrainee20/Desktop/virtuoso/EXTRACT' (cds.lib command ignored).
+DEFINE FINFET_15nm  /home/sgeuser11/Desktop/finfet_work/FINfET_15nm_sch
+|
+xrun: *W,DLCPTH (/home/vvtrainee20/cds.lib,8): cds.lib Invalid path '/home/sgeuser11/Desktop/finfet_work/FINfET_15nm_sch' (cds.lib command ignored).
+DEFINE test /home/vvtrainee20/test
+|
+xrun: *W,DLCPTH (/home/vvtrainee20/cds.lib,9): cds.lib Invalid path '/home/vvtrainee20/test' (cds.lib command ignored).
+DEFINE gpdk045 /tools/cadence/FOUNDRY/analog/45nm/gpdk045
+|
+xrun: *W,DLCPTH (/home/vvtrainee20/cds.lib,5): cds.lib Permission denied '/tools/cadence/FOUNDRY/analog/45nm/gpdk045' (cds.lib command ignored).
+DEFINE EXTRACT Desktop/virtuoso/EXTRACT
+|
+xrun: *W,DLCPTH (/home/vvtrainee20/cds.lib,6): cds.lib Invalid path '/home/vvtrainee20/Desktop/virtuoso/EXTRACT' (cds.lib command ignored).
+DEFINE FINFET_15nm  /home/sgeuser11/Desktop/finfet_work/FINfET_15nm_sch
+|
+xrun: *W,DLCPTH (/home/vvtrainee20/cds.lib,8): cds.lib Invalid path '/home/sgeuser11/Desktop/finfet_work/FINfET_15nm_sch' (cds.lib command ignored).
+DEFINE test /home/vvtrainee20/test
+|
+xrun: *W,DLCPTH (/home/vvtrainee20/cds.lib,9): cds.lib Invalid path '/home/vvtrainee20/test' (cds.lib command ignored).
+DEFINE gpdk045 /tools/cadence/FOUNDRY/analog/45nm/gpdk045
+|
+xrun: *W,DLCPTH (/home/vvtrainee20/cds.lib,5): cds.lib Permission denied '/tools/cadence/FOUNDRY/analog/45nm/gpdk045' (cds.lib command ignored).
+DEFINE EXTRACT Desktop/virtuoso/EXTRACT
+|
+xrun: *W,DLCPTH (/home/vvtrainee20/cds.lib,6): cds.lib Invalid path '/home/vvtrainee20/Desktop/virtuoso/EXTRACT' (cds.lib command ignored).
+DEFINE FINFET_15nm  /home/sgeuser11/Desktop/finfet_work/FINfET_15nm_sch
+|
+xrun: *W,DLCPTH (/home/vvtrainee20/cds.lib,8): cds.lib Invalid path '/home/sgeuser11/Desktop/finfet_work/FINfET_15nm_sch' (cds.lib command ignored).
+DEFINE test /home/vvtrainee20/test
+|
+xrun: *W,DLCPTH (/home/vvtrainee20/cds.lib,9): cds.lib Invalid path '/home/vvtrainee20/test' (cds.lib command ignored).
+DEFINE gpdk045 /tools/cadence/FOUNDRY/analog/45nm/gpdk045
+|
+xrun: *W,DLCPTH (/home/vvtrainee20/cds.lib,5): cds.lib Permission denied '/tools/cadence/FOUNDRY/analog/45nm/gpdk045' (cds.lib command ignored).
+DEFINE EXTRACT Desktop/virtuoso/EXTRACT
+|
+xrun: *W,DLCPTH (/home/vvtrainee20/cds.lib,6): cds.lib Invalid path '/home/vvtrainee20/Desktop/virtuoso/EXTRACT' (cds.lib command ignored).
+DEFINE FINFET_15nm  /home/sgeuser11/Desktop/finfet_work/FINfET_15nm_sch
+|
+xrun: *W,DLCPTH (/home/vvtrainee20/cds.lib,8): cds.lib Invalid path '/home/sgeuser11/Desktop/finfet_work/FINfET_15nm_sch' (cds.lib command ignored).
+DEFINE test /home/vvtrainee20/test
+|
+xrun: *W,DLCPTH (/home/vvtrainee20/cds.lib,9): cds.lib Invalid path '/home/vvtrainee20/test' (cds.lib command ignored).
+DEFINE gpdk045 /tools/cadence/FOUNDRY/analog/45nm/gpdk045
+|
+xrun: *W,DLCPTH (/home/vvtrainee20/cds.lib,5): cds.lib Permission denied '/tools/cadence/FOUNDRY/analog/45nm/gpdk045' (cds.lib command ignored).
+DEFINE EXTRACT Desktop/virtuoso/EXTRACT
+|
+xrun: *W,DLCPTH (/home/vvtrainee20/cds.lib,6): cds.lib Invalid path '/home/vvtrainee20/Desktop/virtuoso/EXTRACT' (cds.lib command ignored).
+DEFINE FINFET_15nm  /home/sgeuser11/Desktop/finfet_work/FINfET_15nm_sch
+|
+xrun: *W,DLCPTH (/home/vvtrainee20/cds.lib,8): cds.lib Invalid path '/home/sgeuser11/Desktop/finfet_work/FINfET_15nm_sch' (cds.lib command ignored).
+DEFINE test /home/vvtrainee20/test
+|
+xrun: *W,DLCPTH (/home/vvtrainee20/cds.lib,9): cds.lib Invalid path '/home/vvtrainee20/test' (cds.lib command ignored).
+Compiling UVM packages (uvm_pkg.sv cdns_uvm_pkg.sv) using uvmhome location /tools/cadence_march2021/XCELIUM2009/tools/methodology/UVM/CDNS-1.1d
+DEFINE gpdk045 /tools/cadence/FOUNDRY/analog/45nm/gpdk045
+|
+xmvlog: *W,DLCPTH (/home/vvtrainee20/cds.lib,5): cds.lib Permission denied '/tools/cadence/FOUNDRY/analog/45nm/gpdk045' (cds.lib command ignored).
+DEFINE EXTRACT Desktop/virtuoso/EXTRACT
+|
+xmvlog: *W,DLCPTH (/home/vvtrainee20/cds.lib,6): cds.lib Invalid path '/home/vvtrainee20/Desktop/virtuoso/EXTRACT' (cds.lib command ignored).
+DEFINE FINFET_15nm  /home/sgeuser11/Desktop/finfet_work/FINfET_15nm_sch
+|
+xmvlog: *W,DLCPTH (/home/vvtrainee20/cds.lib,8): cds.lib Invalid path '/home/sgeuser11/Desktop/finfet_work/FINfET_15nm_sch' (cds.lib command ignored).
+DEFINE test /home/vvtrainee20/test
+|
+xmvlog: *W,DLCPTH (/home/vvtrainee20/cds.lib,9): cds.lib Invalid path '/home/vvtrainee20/test' (cds.lib command ignored).
+DEFINE gpdk045 /tools/cadence/FOUNDRY/analog/45nm/gpdk045
+|
+xmvlog: *W,DLCPTH (/home/vvtrainee20/cds.lib,5): cds.lib Permission denied '/tools/cadence/FOUNDRY/analog/45nm/gpdk045' (cds.lib command ignored).
+DEFINE EXTRACT Desktop/virtuoso/EXTRACT
+|
+xmvlog: *W,DLCPTH (/home/vvtrainee20/cds.lib,6): cds.lib Invalid path '/home/vvtrainee20/Desktop/virtuoso/EXTRACT' (cds.lib command ignored).
+DEFINE FINFET_15nm  /home/sgeuser11/Desktop/finfet_work/FINfET_15nm_sch
+|
+xmvlog: *W,DLCPTH (/home/vvtrainee20/cds.lib,8): cds.lib Invalid path '/home/sgeuser11/Desktop/finfet_work/FINfET_15nm_sch' (cds.lib command ignored).
+DEFINE test /home/vvtrainee20/test
+|
+xmvlog: *W,DLCPTH (/home/vvtrainee20/cds.lib,9): cds.lib Invalid path '/home/vvtrainee20/test' (cds.lib command ignored).
+file: ./../../PS_NoC_RTL/NOC_Arbiter_TOP.sv
+	module worklib.noc_arbiter:sv
+		errors: 0, warnings: 0
+file: ./../../PS_NoC_RTL/amba_axi_m2s6.v
+	module worklib.amba_axi_m2s6:v
+		errors: 0, warnings: 0
+	module worklib.axi_arbiter_mtos_m2:v
+		errors: 0, warnings: 0
+	module worklib.axi_arbiter_fifo_sync:v
+		errors: 0, warnings: 0
+	module worklib.axi_arbiter_stom_s6:v
+		errors: 0, warnings: 0
+	module worklib.axi_mtos_m2:v
+		errors: 0, warnings: 0
+	module worklib.axi_stom_s6:v
+		errors: 0, warnings: 0
+	module worklib.axi_default_slave:v
+		errors: 0, warnings: 0
+file: ./../../PS_NoC_RTL/axi_apb_bridge.sv
+	module worklib.axi_apb_bridge:sv
+		errors: 0, warnings: 0
+file: ./../uvme/top/axi_master_if.sv
+	interface worklib.axi4_master_if:sv
+		errors: 0, warnings: 0
+file: ./../uvme/top/axi_slave_if.sv
+	interface worklib.axi_slave_if:sv
+		errors: 0, warnings: 0
+file: ./../uvme/top/apb_slave_if.sv
+	interface worklib.apb_slave_if:sv
+		errors: 0, warnings: 0
+file: ./../uvme/package/noc_arbiter_package.sv
+		/*if(env_cfg.has_virtual_sequencer)begin
+		 |
+xmvlog: *W,NOCMIC (./../uvme/env/noc_arb_env.sv,28|3): error-prone block comment nested within block comment [2.3(IEEE)].
+(`include file: ./../uvme/env/noc_arb_env.sv line 28, file: ./../uvme/package/noc_arbiter_package.sv line 38)
+	package worklib.noc_arbiter_package:sv
+		errors: 0, warnings: 1
+file: ./../uvme/top/noc_arbiter_top.sv
+	module worklib.noc_arbiter_top:sv
+		errors: 0, warnings: 0
+	Total errors/warnings found outside modules and primitives:
+		errors: 0, warnings: 4
+DEFINE gpdk045 /tools/cadence/FOUNDRY/analog/45nm/gpdk045
+|
+xrun: *W,DLCPTH (/home/vvtrainee20/cds.lib,5): cds.lib Permission denied '/tools/cadence/FOUNDRY/analog/45nm/gpdk045' (cds.lib command ignored).
+DEFINE EXTRACT Desktop/virtuoso/EXTRACT
+|
+xrun: *W,DLCPTH (/home/vvtrainee20/cds.lib,6): cds.lib Invalid path '/home/vvtrainee20/Desktop/virtuoso/EXTRACT' (cds.lib command ignored).
+DEFINE FINFET_15nm  /home/sgeuser11/Desktop/finfet_work/FINfET_15nm_sch
+|
+xrun: *W,DLCPTH (/home/vvtrainee20/cds.lib,8): cds.lib Invalid path '/home/sgeuser11/Desktop/finfet_work/FINfET_15nm_sch' (cds.lib command ignored).
+DEFINE test /home/vvtrainee20/test
+|
+xrun: *W,DLCPTH (/home/vvtrainee20/cds.lib,9): cds.lib Invalid path '/home/vvtrainee20/test' (cds.lib command ignored).
+DEFINE gpdk045 /tools/cadence/FOUNDRY/analog/45nm/gpdk045
+|
+xrun: *W,DLCPTH (/home/vvtrainee20/cds.lib,5): cds.lib Permission denied '/tools/cadence/FOUNDRY/analog/45nm/gpdk045' (cds.lib command ignored).
+DEFINE EXTRACT Desktop/virtuoso/EXTRACT
+|
+xrun: *W,DLCPTH (/home/vvtrainee20/cds.lib,6): cds.lib Invalid path '/home/vvtrainee20/Desktop/virtuoso/EXTRACT' (cds.lib command ignored).
+DEFINE FINFET_15nm  /home/sgeuser11/Desktop/finfet_work/FINfET_15nm_sch
+|
+xrun: *W,DLCPTH (/home/vvtrainee20/cds.lib,8): cds.lib Invalid path '/home/sgeuser11/Desktop/finfet_work/FINfET_15nm_sch' (cds.lib command ignored).
+DEFINE test /home/vvtrainee20/test
+|
+xrun: *W,DLCPTH (/home/vvtrainee20/cds.lib,9): cds.lib Invalid path '/home/vvtrainee20/test' (cds.lib command ignored).
+DEFINE gpdk045 /tools/cadence/FOUNDRY/analog/45nm/gpdk045
+|
+xmelab: *W,DLCPTH (/home/vvtrainee20/cds.lib,5): cds.lib Permission denied '/tools/cadence/FOUNDRY/analog/45nm/gpdk045' (cds.lib command ignored).
+DEFINE EXTRACT Desktop/virtuoso/EXTRACT
+|
+xmelab: *W,DLCPTH (/home/vvtrainee20/cds.lib,6): cds.lib Invalid path '/home/vvtrainee20/Desktop/virtuoso/EXTRACT' (cds.lib command ignored).
+DEFINE FINFET_15nm  /home/sgeuser11/Desktop/finfet_work/FINfET_15nm_sch
+|
+xmelab: *W,DLCPTH (/home/vvtrainee20/cds.lib,8): cds.lib Invalid path '/home/sgeuser11/Desktop/finfet_work/FINfET_15nm_sch' (cds.lib command ignored).
+DEFINE test /home/vvtrainee20/test
+|
+xmelab: *W,DLCPTH (/home/vvtrainee20/cds.lib,9): cds.lib Invalid path '/home/vvtrainee20/test' (cds.lib command ignored).
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	noc_arbiter dut(
+	              |
+xmelab: *W,CUVWSP (../uvme/top/noc_arbiter_top.sv,73|15): 16 output ports were not connected:
+xmelab: (/home/vvtrainee20/Desktop/Yoganarasimha/Project3/Noc_arbiter/PS_NoC_RTL/NOC_Arbiter_TOP.sv,60): M0_BID
+xmelab: (/home/vvtrainee20/Desktop/Yoganarasimha/Project3/Noc_arbiter/PS_NoC_RTL/NOC_Arbiter_TOP.sv,79): M0_RID
+xmelab: (/home/vvtrainee20/Desktop/Yoganarasimha/Project3/Noc_arbiter/PS_NoC_RTL/NOC_Arbiter_TOP.sv,82): M0_RLAST
+xmelab: (/home/vvtrainee20/Desktop/Yoganarasimha/Project3/Noc_arbiter/PS_NoC_RTL/NOC_Arbiter_TOP.sv,110): M1_BID
+xmelab: (/home/vvtrainee20/Desktop/Yoganarasimha/Project3/Noc_arbiter/PS_NoC_RTL/NOC_Arbiter_TOP.sv,126): M1_RID
+xmelab: (/home/vvtrainee20/Desktop/Yoganarasimha/Project3/Noc_arbiter/PS_NoC_RTL/NOC_Arbiter_TOP.sv,129): M1_RLAST
+xmelab: (/home/vvtrainee20/Desktop/Yoganarasimha/Project3/Noc_arbiter/PS_NoC_RTL/NOC_Arbiter_TOP.sv,134): S0_AWID
+xmelab: (/home/vvtrainee20/Desktop/Yoganarasimha/Project3/Noc_arbiter/PS_NoC_RTL/NOC_Arbiter_TOP.sv,139): S0_AWSIZE
+xmelab: (/home/vvtrainee20/Desktop/Yoganarasimha/Project3/Noc_arbiter/PS_NoC_RTL/NOC_Arbiter_TOP.sv,145): S0_WID
+xmelab: (/home/vvtrainee20/Desktop/Yoganarasimha/Project3/Noc_arbiter/PS_NoC_RTL/NOC_Arbiter_TOP.sv,157): S0_ARID
+xmelab: (/home/vvtrainee20/Desktop/Yoganarasimha/Project3/Noc_arbiter/PS_NoC_RTL/NOC_Arbiter_TOP.sv,162): S0_ARSIZE
+xmelab: (/home/vvtrainee20/Desktop/Yoganarasimha/Project3/Noc_arbiter/PS_NoC_RTL/NOC_Arbiter_TOP.sv,176): S1_AWID
+xmelab: (/home/vvtrainee20/Desktop/Yoganarasimha/Project3/Noc_arbiter/PS_NoC_RTL/NOC_Arbiter_TOP.sv,181): S1_AWSIZE
+xmelab: (/home/vvtrainee20/Desktop/Yoganarasimha/Project3/Noc_arbiter/PS_NoC_RTL/NOC_Arbiter_TOP.sv,187): S1_WID
+xmelab: (/home/vvtrainee20/Desktop/Yoganarasimha/Project3/Noc_arbiter/PS_NoC_RTL/NOC_Arbiter_TOP.sv,199): S1_ARID
+xmelab: (/home/vvtrainee20/Desktop/Yoganarasimha/Project3/Noc_arbiter/PS_NoC_RTL/NOC_Arbiter_TOP.sv,204): S1_ARSIZE
+
+	noc_arbiter dut(
+	              |
+xmelab: *W,CUVWSI (../uvme/top/noc_arbiter_top.sv,73|15): 8 input ports were not connected:
+xmelab: (/home/vvtrainee20/Desktop/Yoganarasimha/Project3/Noc_arbiter/PS_NoC_RTL/NOC_Arbiter_TOP.sv,43): M0_AWSIZE
+xmelab: (/home/vvtrainee20/Desktop/Yoganarasimha/Project3/Noc_arbiter/PS_NoC_RTL/NOC_Arbiter_TOP.sv,53): M0_WID
+xmelab: (/home/vvtrainee20/Desktop/Yoganarasimha/Project3/Noc_arbiter/PS_NoC_RTL/NOC_Arbiter_TOP.sv,65): M0_ARID
+xmelab: (/home/vvtrainee20/Desktop/Yoganarasimha/Project3/Noc_arbiter/PS_NoC_RTL/NOC_Arbiter_TOP.sv,70): M0_ARSIZE
+xmelab: (/home/vvtrainee20/Desktop/Yoganarasimha/Project3/Noc_arbiter/PS_NoC_RTL/NOC_Arbiter_TOP.sv,93): M1_AWSIZE
+xmelab: (/home/vvtrainee20/Desktop/Yoganarasimha/Project3/Noc_arbiter/PS_NoC_RTL/NOC_Arbiter_TOP.sv,103): M1_WID
+xmelab: (/home/vvtrainee20/Desktop/Yoganarasimha/Project3/Noc_arbiter/PS_NoC_RTL/NOC_Arbiter_TOP.sv,115): M1_ARID
+xmelab: (/home/vvtrainee20/Desktop/Yoganarasimha/Project3/Noc_arbiter/PS_NoC_RTL/NOC_Arbiter_TOP.sv,120): M1_ARSIZE
+
+amba_axi_m2s6_inst
+                 |
+xmelab: *W,CUVWSP (/home/vvtrainee20/Desktop/Yoganarasimha/Project3/Noc_arbiter/PS_NoC_RTL/NOC_Arbiter_TOP.sv,400|17): 12 output ports were not connected:
+xmelab: (/home/vvtrainee20/Desktop/Yoganarasimha/Project3/Noc_arbiter/PS_NoC_RTL/amba_axi_m2s6.v,201): S0_AWLOCK
+xmelab: (/home/vvtrainee20/Desktop/Yoganarasimha/Project3/Noc_arbiter/PS_NoC_RTL/amba_axi_m2s6.v,243): S0_ARLOCK
+xmelab: (/home/vvtrainee20/Desktop/Yoganarasimha/Project3/Noc_arbiter/PS_NoC_RTL/amba_axi_m2s6.v,279): S1_AWLOCK
+xmelab: (/home/vvtrainee20/Desktop/Yoganarasimha/Project3/Noc_arbiter/PS_NoC_RTL/amba_axi_m2s6.v,321): S1_ARLOCK
+xmelab: (/home/vvtrainee20/Desktop/Yoganarasimha/Project3/Noc_arbiter/PS_NoC_RTL/amba_axi_m2s6.v,357): S2_AWLOCK
+xmelab: (/home/vvtrainee20/Desktop/Yoganarasimha/Project3/Noc_arbiter/PS_NoC_RTL/amba_axi_m2s6.v,399): S2_ARLOCK
+xmelab: (/home/vvtrainee20/Desktop/Yoganarasimha/Project3/Noc_arbiter/PS_NoC_RTL/amba_axi_m2s6.v,435): S3_AWLOCK
+xmelab: (/home/vvtrainee20/Desktop/Yoganarasimha/Project3/Noc_arbiter/PS_NoC_RTL/amba_axi_m2s6.v,477): S3_ARLOCK
+xmelab: (/home/vvtrainee20/Desktop/Yoganarasimha/Project3/Noc_arbiter/PS_NoC_RTL/amba_axi_m2s6.v,513): S4_AWLOCK
+xmelab: (/home/vvtrainee20/Desktop/Yoganarasimha/Project3/Noc_arbiter/PS_NoC_RTL/amba_axi_m2s6.v,555): S4_ARLOCK
+xmelab: (/home/vvtrainee20/Desktop/Yoganarasimha/Project3/Noc_arbiter/PS_NoC_RTL/amba_axi_m2s6.v,591): S5_AWLOCK
+xmelab: (/home/vvtrainee20/Desktop/Yoganarasimha/Project3/Noc_arbiter/PS_NoC_RTL/amba_axi_m2s6.v,633): S5_ARLOCK
+
+amba_axi_m2s6_inst
+                 |
+xmelab: *W,CUVWSI (/home/vvtrainee20/Desktop/Yoganarasimha/Project3/Noc_arbiter/PS_NoC_RTL/NOC_Arbiter_TOP.sv,400|17): 4 input ports were not connected:
+xmelab: (/home/vvtrainee20/Desktop/Yoganarasimha/Project3/Noc_arbiter/PS_NoC_RTL/amba_axi_m2s6.v,44): M0_AWLOCK
+xmelab: (/home/vvtrainee20/Desktop/Yoganarasimha/Project3/Noc_arbiter/PS_NoC_RTL/amba_axi_m2s6.v,86): M0_ARLOCK
+xmelab: (/home/vvtrainee20/Desktop/Yoganarasimha/Project3/Noc_arbiter/PS_NoC_RTL/amba_axi_m2s6.v,123): M1_AWLOCK
+xmelab: (/home/vvtrainee20/Desktop/Yoganarasimha/Project3/Noc_arbiter/PS_NoC_RTL/amba_axi_m2s6.v,165): M1_ARLOCK
+
+	Top level design units:
+		uvm_pkg
+		cdns_uvmapi
+		cdns_assert2uvm_pkg
+		cdns_uvm_pkg
+		noc_arbiter_package
+		noc_arbiter_top
+xmelab: *W,DSEMEL: This SystemVerilog design will be simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+		.S0_BID					(s1_if.BID),
+		       					         |
+xmelab: *W,CUVMPW (../uvme/top/noc_arbiter_top.sv,156|23): port sizes differ in port connection(4/8) for the instance(noc_arbiter_top) .
+		.S0_RID					(s1_if.RID),
+		       					         |
+xmelab: *W,CUVMPW (../uvme/top/noc_arbiter_top.sv,157|23): port sizes differ in port connection(4/8) for the instance(noc_arbiter_top) .
+		.S0_AWLEN				(s1_if.AWLEN),
+		         				           |
+xmelab: *W,CUVMPW (../uvme/top/noc_arbiter_top.sv,165|26): port sizes differ in port connection(1/4) for the instance(noc_arbiter_top) .
+		.S1_BID					(s2_if.BID),
+		       					         |
+xmelab: *W,CUVMPW (../uvme/top/noc_arbiter_top.sv,185|23): port sizes differ in port connection(4/8) for the instance(noc_arbiter_top) .
+		.S1_RID					(s2_if.RID),
+		       					         |
+xmelab: *W,CUVMPW (../uvme/top/noc_arbiter_top.sv,186|23): port sizes differ in port connection(4/8) for the instance(noc_arbiter_top) .
+		.S1_AWLEN				(s2_if.AWLEN),
+		         				           |
+xmelab: *W,CUVMPW (../uvme/top/noc_arbiter_top.sv,194|26): port sizes differ in port connection(1/4) for the instance(noc_arbiter_top) .
+		wait(mvif.rd_cb.RREADY);
+		        |
+xmelab: *W,CONOTR (../uvme/axi_master_agent/axi_master_driver.sv,126|10): A clocking output is not a legal rvalue [IEEE STD 1800-2009].
+		burst_len = mvif.rd_cb.ARLEN+1;
+		               |
+xmelab: *W,CONOTR (../uvme/axi_master_agent/axi_master_driver.sv,128|17): A clocking output is not a legal rvalue [IEEE STD 1800-2009].
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+DEFINE gpdk045 /tools/cadence/FOUNDRY/analog/45nm/gpdk045
+|
+xmvlog_cg: *W,DLCPTH (/home/vvtrainee20/cds.lib,5): cds.lib Permission denied '/tools/cadence/FOUNDRY/analog/45nm/gpdk045' (cds.lib command ignored).
+DEFINE EXTRACT Desktop/virtuoso/EXTRACT
+|
+xmvlog_cg: *W,DLCPTH (/home/vvtrainee20/cds.lib,6): cds.lib Invalid path '/home/vvtrainee20/Desktop/virtuoso/EXTRACT' (cds.lib command ignored).
+DEFINE FINFET_15nm  /home/sgeuser11/Desktop/finfet_work/FINfET_15nm_sch
+|
+xmvlog_cg: *W,DLCPTH (/home/vvtrainee20/cds.lib,8): cds.lib Invalid path '/home/sgeuser11/Desktop/finfet_work/FINfET_15nm_sch' (cds.lib command ignored).
+DEFINE test /home/vvtrainee20/test
+|
+xmvlog_cg: *W,DLCPTH (/home/vvtrainee20/cds.lib,9): cds.lib Invalid path '/home/vvtrainee20/test' (cds.lib command ignored).
+		worklib.axi_apb_bridge:sv <0x135af4b1>
+			streams: 258, words: 170178
+		worklib.axi_default_slave:v <0x5b2592e0>
+			streams:  22, words: 12963
+		worklib.axi_arbiter_stom_s6:v <0x3a27aa87>
+			streams:  13, words:  8039
+		worklib.axi_stom_s6:v <0x5e4f5846>
+			streams:  36, words: 20638
+		worklib.axi_mtos_m2:v <0x53387e47>
+			streams:  26, words: 16093
+		worklib.axi_mtos_m2:v <0x669922d9>
+			streams:  26, words: 16145
+		worklib.axi_mtos_m2:v <0x3b73b93a>
+			streams:  26, words: 16145
+		worklib.axi_mtos_m2:v <0x3e81743b>
+			streams:  26, words: 16145
+		worklib.axi_mtos_m2:v <0x636befd8>
+			streams:  26, words: 16145
+		worklib.axi_mtos_m2:v <0x11e24fca>
+			streams:  26, words: 16145
+		worklib.axi_arbiter_fifo_sync:v <0x623155ab>
+			streams:  19, words:  7715
+		worklib.axi_arbiter_mtos_m2:v <0x5968e4a4>
+			streams:  23, words: 12060
+		worklib.axi_mtos_m2:v <0x6fdb493b>
+			streams:  26, words: 16145
+		worklib.amba_axi_m2s6:v <0x5f705322>
+			streams:  12, words:  6904
+		worklib.noc_arbiter:sv <0x04850b5a>
+			streams: 248, words: 59508
+		worklib.uvm_pkg:sv <0x241185dd>
+			streams:   6, words:  3460
+		worklib.uvm_pkg:sv <0x47a7ab01>
+			streams:   6, words:  3120
+		worklib.uvm_pkg:sv <0x07a62beb>
+			streams:   5, words:  2530
+		worklib.uvm_pkg:sv <0x4bde41e6>
+			streams:   7, words:  1927
+		worklib.uvm_pkg:sv <0x239240e1>
+			streams:   8, words:  2774
+		worklib.uvm_pkg:sv <0x140b00cf>
+			streams:  21, words: 50384
+		worklib.uvm_pkg:sv <0x2c9cdff0>
+			streams:   7, words:  1927
+		worklib.uvm_pkg:sv <0x3299d390>
+			streams:   7, words:  3099
+		worklib.uvm_pkg:sv <0x5880dffd>
+			streams:  24, words: 20005
+		worklib.uvm_pkg:sv <0x1d969432>
+			streams:  24, words: 19057
+		worklib.uvm_pkg:sv <0x7ba542d6>
+			streams:  20, words: 18548
+		worklib.uvm_pkg:sv <0x007345a8>
+			streams:  11, words:  4487
+		worklib.uvm_pkg:sv <0x77b55782>
+			streams:  23, words: 28699
+		worklib.uvm_pkg:sv <0x2d0d865b>
+			streams:   7, words:  2431
+		worklib.uvm_pkg:sv <0x62302fb9>
+			streams:  12, words: 16092
+		worklib.uvm_pkg:sv <0x6575fd89>
+			streams:  23, words: 24178
+		worklib.uvm_pkg:sv <0x50d65837>
+			streams:  22, words: 51194
+		worklib.uvm_pkg:sv <0x5badbe58>
+			streams:  25, words: 32248
+		worklib.uvm_pkg:sv <0x3e640368>
+			streams:  24, words: 46655
+		worklib.uvm_pkg:sv <0x3f4ffd3a>
+			streams:  25, words: 35031
+		worklib.uvm_pkg:sv <0x64ac58df>
+			streams:  23, words: 52165
+		worklib.uvm_pkg:sv <0x6fd5ac1c>
+			streams:  25, words: 37109
+		worklib.uvm_pkg:sv <0x6cad6de3>
+			streams:  23, words: 57796
+		worklib.uvm_pkg:sv <0x5fe15669>
+			streams:  25, words: 41735
+		worklib.uvm_pkg:sv <0x1c52f15b>
+			streams:  23, words: 50753
+		worklib.uvm_pkg:sv <0x1f3e5718>
+			streams:  23, words: 53731
+		worklib.uvm_pkg:sv <0x0eb65f26>
+			streams:  25, words: 34315
+		worklib.uvm_pkg:sv <0x6f08b681>
+			streams:  23, words: 50381
+		worklib.uvm_pkg:sv <0x63d9f211>
+			streams:  25, words: 77049
+		worklib.uvm_pkg:sv <0x304e37c4>
+			streams:  53, words: 73144
+		worklib.cdns_uvm_pkg:sv <0x2d057d60>
+			streams:  26, words: 34197
+		worklib.cdns_uvm_pkg:sv <0x62c50736>
+			streams:   8, words:  4031
+		worklib.cdns_uvm_pkg:sv <0x76010753>
+			streams:  10, words:  8705
+		worklib.uvm_pkg:sv <0x3e962fe1>
+			streams:  21, words: 15796
+		worklib.uvm_pkg:sv <0x6b8100e3>
+			streams:  21, words: 15062
+		worklib.uvm_pkg:sv <0x6e43371c>
+			streams:  23, words: 22819
+		worklib.uvm_pkg:sv <0x779a23ba>
+			streams:  21, words: 15370
+		worklib.uvm_pkg:sv <0x3cc1cb9f>
+			streams:  23, words: 22849
+		worklib.uvm_pkg:sv <0x7cae8686>
+			streams:  21, words: 16909
+		worklib.noc_arbiter_package:sv <0x2826d988>
+			streams:  22, words: 33747
+		worklib.uvm_pkg:sv <0x4c7f34d0>
+			streams:   7, words:  3099
+		worklib.uvm_pkg:sv <0x7e593105>
+			streams:  22, words: 32429
+		worklib.uvm_pkg:sv <0x0dfe909c>
+			streams:  21, words: 18199
+		worklib.uvm_pkg:sv <0x0df18e17>
+			streams:  22, words: 21677
+		worklib.uvm_pkg:sv <0x31327e53>
+			streams:  21, words: 17571
+		worklib.uvm_pkg:sv <0x28dc5712>
+			streams: 103, words: 159306
+		worklib.uvm_pkg:sv <0x24fbdb8c>
+			streams:  21, words: 18199
+		worklib.uvm_pkg:sv <0x0b8f4351>
+			streams:  22, words: 21677
+		worklib.uvm_pkg:sv <0x2055c7af>
+			streams:  21, words: 17571
+		worklib.uvm_pkg:sv <0x79173e9c>
+			streams: 121, words: 162317
+		worklib.uvm_pkg:sv <0x6130161c>
+			streams:  21, words: 18199
+		worklib.uvm_pkg:sv <0x35c44619>
+			streams:  22, words: 21827
+		worklib.uvm_pkg:sv <0x1b5f875a>
+			streams:   8, words:  4212
+		worklib.uvm_pkg:sv <0x45fe9fa3>
+			streams:  21, words: 17571
+		worklib.uvm_pkg:sv <0x1be9bc68>
+			streams:   7, words:  3099
+		worklib.uvm_pkg:sv <0x710d1edb>
+			streams:  76, words: 98187
+		worklib.uvm_pkg:sv <0x1c771579>
+			streams:  25, words: 27410
+		worklib.noc_arbiter_package:sv <0x5820f1c0>
+			streams:  22, words: 24324
+		worklib.uvm_pkg:sv <0x11406863>
+			streams:  23, words: 26412
+		worklib.uvm_pkg:sv <0x11b206e4>
+			streams:  75, words: 99400
+		worklib.uvm_pkg:sv <0x5dee6bd7>
+			streams:  20, words: 17099
+		worklib.uvm_pkg:sv <0x68e7b2df>
+			streams:  22, words: 21884
+		worklib.uvm_pkg:sv <0x4d8b6fea>
+			streams:  22, words: 20548
+		worklib.uvm_pkg:sv <0x702bbd4c>
+			streams:  22, words: 20548
+		worklib.uvm_pkg:sv <0x307926e9>
+			streams:  22, words: 20548
+		worklib.uvm_pkg:sv <0x7b1da07a>
+			streams:  23, words: 27362
+		worklib.uvm_pkg:sv <0x424f6e16>
+			streams:  29, words: 25489
+		worklib.uvm_pkg:sv <0x68ccd8ca>
+			streams: 258, words: 311424
+		worklib.uvm_pkg:sv <0x20e18ee4>
+			streams:  22, words: 21911
+		worklib.uvm_pkg:sv <0x303dbbce>
+			streams:  30, words: 31364
+		worklib.uvm_pkg:sv <0x1e9f225a>
+			streams: 258, words: 311424
+		worklib.uvm_pkg:sv <0x4d6e87de>
+			streams:  22, words: 21574
+		worklib.noc_arbiter_top:sv <0x4969219f>
+			streams: 302, words: 272149
+		worklib.noc_arbiter_package:sv <0x1d50c1bb>
+			streams:   0, words:     0
+		worklib.cdns_uvm_pkg:sv <0x651fafa2>
+			streams: 128, words: 240666
+		worklib.cdns_uvmapi:svp <0x3f864fef>
+			streams:  27, words: 31790
+		worklib.cdns_assert2uvm_pkg:sv <0x2d2fb8a4>
+			streams:   3, words:  2239
+		worklib.uvm_pkg:sv <0x6291585f>
+			streams: 3939, words: 6494997
+		worklib.axi4_master_if:sv <0x174c1cd7>
+			streams:  20, words: 20534
+		worklib.axi4_master_if:sv <0x4e31982b>
+			streams:  20, words: 20534
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                       Instances  Unique
+		Modules:                      30      10
+		Interfaces:                    8       3
+		Verilog packages:              5       5
+		Registers:                 17548   11263
+		Scalar wires:                509       -
+		Vectored wires:              713       -
+		Named events:                  4      12
+		Always blocks:               121      51
+		Initial blocks:              431     195
+		Clocking blocks:               4       2
+		Clocking items:               48      24
+		Parallel blocks:              27      28
+		Cont. assignments:           343     208
+		Pseudo assignments:          448     442
+		Assertions:                    3       3
+		SV Class declarations:       225     339
+		SV Class specializations:    479     479
+	Writing initial simulation snapshot: worklib.noc_arbiter_top:sv
+DEFINE gpdk045 /tools/cadence/FOUNDRY/analog/45nm/gpdk045
+|
+xmsim: *W,DLCPTH (/home/vvtrainee20/cds.lib,5): cds.lib Permission denied '/tools/cadence/FOUNDRY/analog/45nm/gpdk045' (cds.lib command ignored).
+DEFINE EXTRACT Desktop/virtuoso/EXTRACT
+|
+xmsim: *W,DLCPTH (/home/vvtrainee20/cds.lib,6): cds.lib Invalid path '/home/vvtrainee20/Desktop/virtuoso/EXTRACT' (cds.lib command ignored).
+DEFINE FINFET_15nm  /home/sgeuser11/Desktop/finfet_work/FINfET_15nm_sch
+|
+xmsim: *W,DLCPTH (/home/vvtrainee20/cds.lib,8): cds.lib Invalid path '/home/sgeuser11/Desktop/finfet_work/FINfET_15nm_sch' (cds.lib command ignored).
+DEFINE test /home/vvtrainee20/test
+|
+xmsim: *W,DLCPTH (/home/vvtrainee20/cds.lib,9): cds.lib Invalid path '/home/vvtrainee20/test' (cds.lib command ignored).
+Loading snapshot worklib.noc_arbiter_top:sv .................... Done
+SVSEED default: 1
+xmsim: *W,RNDXCELON: A newer version of the SystemVerilog constraint solver is being used which has better support for array-solving, new solve-order mechanism, and seed stability enhancements..
+xmsim: *W,DSEM2009: This SystemVerilog design is simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+xcelium> source /tools/cadence_march2021/XCELIUM2009/tools/xcelium/files/xmsimrc
+xcelium> source /tools/cadence_march2021/XCELIUM2009/tools/methodology/UVM/CDNS-1.1d/additions/sv/files/tcl/uvm_sim.tcl
+xcelium> run
+----------------------------------------------------------------
+CDNS-UVM-1.1d (20.09-s009)
+(C) 2007-2013 Mentor Graphics Corporation
+(C) 2007-2013 Cadence Design Systems, Inc.
+(C) 2006-2013 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+  See http://www.eda.org/svdb/view.php?id=3313 for more details.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+  See http://www.eda.org/svdb/view.php?id=3770 for more details.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+UVM_INFO @ 0: reporter [RNTST] Running test axi_master_write_test...
+UVM_INFO @ 0: reporter [UVMTOP] UVM testbench topology:
+--------------------------------------------------------------------
+Name                         Type                       Size  Value 
+--------------------------------------------------------------------
+uvm_test_top                 axi_master_write_test      -     @2833 
+  envh                       noc_arb_env                -     @2895 
+    apb_slave_top[0]         apb_slave_agt_top          -     @3128 
+      apbsagnt               apb_slave_agent            -     @3904 
+        apbdrv               apb_slave_driver           -     @3967 
+          rsp_port           uvm_analysis_port          -     @4065 
+          seq_item_port      uvm_seq_item_pull_port     -     @4016 
+        apbmon               apb_slave_monitor          -     @3937 
+        apbseqr              apb_slave_sequencer        -     @4045 
+          rsp_export         uvm_analysis_export        -     @4151 
+          seq_item_export    uvm_seq_item_pull_imp      -     @4691 
+          arbitration_queue  array                      0     -     
+          lock_queue         array                      0     -     
+          num_last_reqs      integral                   32    'd1   
+          num_last_rsps      integral                   32    'd1   
+    apb_slave_top[1]         apb_slave_agt_top          -     @3162 
+      apbsagnt               apb_slave_agent            -     @4745 
+        apbdrv               apb_slave_driver           -     @4744 
+          rsp_port           uvm_analysis_port          -     @4900 
+          seq_item_port      uvm_seq_item_pull_port     -     @4852 
+        apbmon               apb_slave_monitor          -     @4775 
+        apbseqr              apb_slave_sequencer        -     @4930 
+          rsp_export         uvm_analysis_export        -     @4985 
+          seq_item_export    uvm_seq_item_pull_imp      -     @5525 
+          arbitration_queue  array                      0     -     
+          lock_queue         array                      0     -     
+          num_last_reqs      integral                   32    'd1   
+          num_last_rsps      integral                   32    'd1   
+    apb_slave_top[2]         apb_slave_agt_top          -     @3196 
+      apbsagnt               apb_slave_agent            -     @5573 
+        apbdrv               apb_slave_driver           -     @5572 
+          rsp_port           uvm_analysis_port          -     @5728 
+          seq_item_port      uvm_seq_item_pull_port     -     @5680 
+        apbmon               apb_slave_monitor          -     @5603 
+        apbseqr              apb_slave_sequencer        -     @5758 
+          rsp_export         uvm_analysis_export        -     @5813 
+          seq_item_export    uvm_seq_item_pull_imp      -     @6353 
+          arbitration_queue  array                      0     -     
+          lock_queue         array                      0     -     
+          num_last_reqs      integral                   32    'd1   
+          num_last_rsps      integral                   32    'd1   
+    apb_slave_top[3]         apb_slave_agt_top          -     @3230 
+      apbsagnt               apb_slave_agent            -     @6401 
+        apbdrv               apb_slave_driver           -     @6400 
+          rsp_port           uvm_analysis_port          -     @6556 
+          seq_item_port      uvm_seq_item_pull_port     -     @6508 
+        apbmon               apb_slave_monitor          -     @6431 
+        apbseqr              apb_slave_sequencer        -     @6586 
+          rsp_export         uvm_analysis_export        -     @6641 
+          seq_item_export    uvm_seq_item_pull_imp      -     @7181 
+          arbitration_queue  array                      0     -     
+          lock_queue         array                      0     -     
+          num_last_reqs      integral                   32    'd1   
+          num_last_rsps      integral                   32    'd1   
+    axi_master_top[0]        axi_master_agt_top         -     @2978 
+      magnt                  axi_master_agent           -     @7230 
+        drvh                 axi_master_driver          -     @7292 
+          rsp_port           uvm_analysis_port          -     @7392 
+          seq_item_port      uvm_seq_item_pull_port     -     @7341 
+        monh                 axi_master_monitor         -     @7262 
+        seqrh                axi_master_sequencer       -     @7423 
+          rsp_export         uvm_analysis_export        -     @7481 
+          seq_item_export    uvm_seq_item_pull_imp      -     @8029 
+          arbitration_queue  array                      0     -     
+          lock_queue         array                      0     -     
+          num_last_reqs      integral                   32    'd1   
+          num_last_rsps      integral                   32    'd1   
+    axi_master_top[1]        axi_master_agt_top         -     @3012 
+      magnt                  axi_master_agent           -     @8078 
+        drvh                 axi_master_driver          -     @8077 
+          rsp_port           uvm_analysis_port          -     @8233 
+          seq_item_port      uvm_seq_item_pull_port     -     @8185 
+        monh                 axi_master_monitor         -     @8108 
+        seqrh                axi_master_sequencer       -     @8263 
+          rsp_export         uvm_analysis_export        -     @8318 
+          seq_item_export    uvm_seq_item_pull_imp      -     @8858 
+          arbitration_queue  array                      0     -     
+          lock_queue         array                      0     -     
+          num_last_reqs      integral                   32    'd1   
+          num_last_rsps      integral                   32    'd1   
+    axi_slave_top[0]         axi_slave_agt_top          -     @3053 
+      sagnt                  axi_slave_agent            -     @8907 
+        sdrvh                axi_slave_driver           -     @8969 
+          rsp_port           uvm_analysis_port          -     @9069 
+          seq_item_port      uvm_seq_item_pull_port     -     @9018 
+        smonh                axi_slave_monitor          -     @8939 
+        sseqrh               axi_slave_sequencer        -     @9100 
+          rsp_export         uvm_analysis_export        -     @9158 
+          seq_item_export    uvm_seq_item_pull_imp      -     @9706 
+          arbitration_queue  array                      0     -     
+          lock_queue         array                      0     -     
+          num_last_reqs      integral                   32    'd1   
+          num_last_rsps      integral                   32    'd1   
+    axi_slave_top[1]         axi_slave_agt_top          -     @3087 
+      sagnt                  axi_slave_agent            -     @9755 
+        sdrvh                axi_slave_driver           -     @9754 
+          rsp_port           uvm_analysis_port          -     @9910 
+          seq_item_port      uvm_seq_item_pull_port     -     @9862 
+        smonh                axi_slave_monitor          -     @9785 
+        sseqrh               axi_slave_sequencer        -     @9940 
+          rsp_export         uvm_analysis_export        -     @9995 
+          seq_item_export    uvm_seq_item_pull_imp      -     @10535
+          arbitration_queue  array                      0     -     
+          lock_queue         array                      0     -     
+          num_last_reqs      integral                   32    'd1   
+          num_last_rsps      integral                   32    'd1   
+    v_seqrh                  noc_arb_virtual_sequencer  -     @3260 
+      rsp_export             uvm_analysis_export        -     @3321 
+      seq_item_export        uvm_seq_item_pull_imp      -     @3871 
+      arbitration_queue      array                      0     -     
+      lock_queue             array                      0     -     
+      num_last_reqs          integral                   32    'd1   
+      num_last_rsps          integral                   32    'd1   
+--------------------------------------------------------------------
+
+UVM_INFO ./../uvme/axi_master_agent/axi_master_driver.sv(32) @ 0: uvm_test_top.envh.axi_master_top[1].magnt.drvh [uvm_test_top.envh.axi_master_top[1].magnt.drvh] inside axi master driver logic
+UVM_INFO ./../uvme/axi_master_agent/axi_master_driver.sv(32) @ 0: uvm_test_top.envh.axi_master_top[0].magnt.drvh [uvm_test_top.envh.axi_master_top[0].magnt.drvh] inside axi master driver logic
+UVM_INFO ./../uvme/sequences/axi_master_sequence/axi_master_write_sequence.sv(13) @ 0: uvm_test_top.envh.axi_master_top[0].magnt.seqrh@@axiw_seqh [uvm_test_top.envh.axi_master_top[0].magnt.seqrh.axiw_seqh] axi write transaction
+UVM_INFO ./../uvme/sequences/axi_slave_sequence/axi_slave_write_sequence.sv(13) @ 0: uvm_test_top.envh.axi_slave_top[0].sagnt.sseqrh@@axis_seqh [uvm_test_top.envh.axi_slave_top[0].sagnt.sseqrh.axis_seqh] axi slave write operation
+UVM_INFO ./../uvme/axi_master_agent/axi_master_driver.sv(35) @ 0: uvm_test_top.envh.axi_master_top[0].magnt.drvh [uvm_test_top.envh.axi_master_top[0].magnt.drvh] received wr_en=1
+wr_en=1
+UVM_INFO ./../uvme/axi_master_agent/axi_master_driver.sv(38) @ 0: uvm_test_top.envh.axi_master_top[0].magnt.drvh [axi_master_driver] drive_write
+xmsim: *W,NOCOND: Unique case violation:  Every case item expression was false.
+            File: /home/vvtrainee20/Desktop/Yoganarasimha/Project3/Noc_arbiter/PS_NoC_RTL/axi_apb_bridge.sv, line = 1378, pos = 16
+           Scope: noc_arbiter_top.dut.axi_apb_bridge_inst
+            Time: 0 FS + 132
+
+xmsim: *W,NOCOND: Unique case violation:  Every case item expression was false.
+            File: /home/vvtrainee20/Desktop/Yoganarasimha/Project3/Noc_arbiter/PS_NoC_RTL/axi_apb_bridge.sv, line = 1343, pos = 16
+           Scope: noc_arbiter_top.dut.axi_apb_bridge_inst
+            Time: 0 FS + 132
+
