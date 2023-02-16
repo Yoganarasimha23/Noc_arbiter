@@ -31,6 +31,7 @@ class axi_slave_driver extends uvm_driver #(noc_arb_axi_slave_transaction);
 	task run_phase(uvm_phase phase);
 		forever begin
 			seq_item_port.get_next_item(req);
+			`uvm_info(get_type_name(),"inside axi slave driver logic",UVM_MEDIUM)
 			if(req.wr_en)begin
 				drive_write(req);
 			end
@@ -38,6 +39,8 @@ class axi_slave_driver extends uvm_driver #(noc_arb_axi_slave_transaction);
 				drive_read(req);
 			end
 			seq_item_port.item_done();
+			`uvm_info(get_type_name()," axi slave driver logic completed",UVM_MEDIUM)
+			
 		end
 	endtask
 
@@ -46,10 +49,12 @@ class axi_slave_driver extends uvm_driver #(noc_arb_axi_slave_transaction);
 		int i;
 		int burst_len;
 		/////.....wait for awvalid signal...../////
+		`uvm_info(get_full_name(),"drive write axi slave ",UVM_MEDIUM)
 		wait(svif.AWVALID);
 		burst_len = svif.AWLEN+1;
+		`uvm_info(get_type_name(),"burst length",UVM_MEDIUM)
 		@(posedge svif.ACLK);
-		svif.AWREADY <= xtn.AWREADY;
+		svif.AWREADY <= 1;
 		@(posedge svif.ACLK);
 		svif.AWREADY <= 0;
 		/////.....wait for wvalid...../////

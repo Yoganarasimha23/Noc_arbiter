@@ -4,9 +4,11 @@ class axi_master_driver extends uvm_driver#(noc_arb_axi_master_transaction);
 
 	/////.....declare a virtual interface handle...../////
 	virtual axi4_master_if mvif;
+	virtual axi_slave_if svif;
 
 	/////.....declare a handle for axi_master_config...../////
 	axi_master_config m_cfg;
+	axi_slave_config s_cfg;
 
 	/////.....function new constructor...../////
 	function new(string name = "axi_master_driver",uvm_component parent);
@@ -19,11 +21,15 @@ class axi_master_driver extends uvm_driver#(noc_arb_axi_master_transaction);
 		if(!uvm_config_db#(axi_master_config)::get(this,"","axi_master_config",m_cfg))begin
 			`uvm_fatal("axi_master driver","unable to get the axi master config have you set() it.? ")
 		end
+		if(!uvm_config_db#(axi_slave_config)::get(this,"","axi_slave_config",s_cfg))begin
+			`uvm_fatal("axi_master driver","unable to get the axi master config have you set() it.? ")
+		end
 	endfunction
 
 	/////.....connect phase...../////
 	function void connect_phase(uvm_phase phase);
 		mvif = m_cfg.mvif;
+		svif = s_cfg.svif;
 	endfunction
 
 	/////.....run_phase...../////
@@ -33,6 +39,8 @@ class axi_master_driver extends uvm_driver#(noc_arb_axi_master_transaction);
 		forever begin
 			seq_item_port.get_next_item(req);
 			`uvm_info(get_full_name(),$sformatf("received wr_en=%0d",req.wr_en),UVM_MEDIUM)
+			if(req.ARESETn)begin
+				$display("ARESETn=%0d",req.ARESETn);
 				if(req.wr_en==1)begin
 					$display("wr_en=%0d",req.wr_en);
 					`uvm_info(get_type_name(),"drive_write",UVM_MEDIUM)
@@ -43,6 +51,9 @@ class axi_master_driver extends uvm_driver#(noc_arb_axi_master_transaction);
 				else begin
 					drive_read(req);
 				end
+			end
+			//else
+				
 			seq_item_port.item_done();
 			`uvm_info(get_full_name(),"axi master driver logic completed",UVM_MEDIUM)
 		end
@@ -54,25 +65,29 @@ class axi_master_driver extends uvm_driver#(noc_arb_axi_master_transaction);
 		int i;
 		int burst_len;
 		burst_len = xtn.AWLEN+1;
+				$display("Drive Write started1");
 		@(negedge mvif.ACLK);
 		//@(mvif.wr_cb);
-		mvif.ARESETn <= xtn.ARESETn;
+		mvif.ARESETn <= 1;
 		/*$display("ARESETn=%0d",mvif.ARESETn);
 		$display("ARESETn=%0d",xtn.ARESETn);
 		`uvm_info(get_type_name(),$sformatf("printing from driver \n %s",xtn.sprint()),UVM_MEDIUM)
 		`uvm_info(get_full_name(),"axi write operation ",UVM_MEDIUM)*/
 		
 
-		mvif.ASW_RESET <= xtn.ASW_RESET;
+		mvif.ASW_RESET <= 0;
 		/////.....write address channel...../////
 		mvif.wr_cb.AWADDR <= xtn.AWADDR;
 		mvif.wr_cb.AWLEN <= xtn.AWLEN;
 		mvif.wr_cb.AWBURST <= xtn.AWBURST;
-		mvif.wr_cb.AWVALID <= xtn.AWVALID;
+		mvif.wr_cb.AWVALID <= 1;
 		mvif.wr_cb.AWSIZE <= xtn.AWSIZE;
 		/////.....wait for awready...../////
+		$display("Drive Write started2");
+
 		@(posedge mvif.ACLK);
-		wait(mvif.wr_cb.AWREADY);
+		wait(svif.AWREADY);
+		$display("Drive Write wait after");
 
 		/////.....deassert the write address channel...../////
 		mvif.wr_cb.AWADDR <= 0;
