@@ -1,0 +1,271 @@
+xrun(64): 20.09-s009: (c) Copyright 1995-2021 Cadence Design Systems, Inc.
+TOOL:	xrun(64)	20.09-s009: Started on Feb 28, 2023 at 22:54:17 IST
+xrun
+	-access +rwc
+	-f compile_list.f
+		./../uvme/package/noc_arbiter_package.sv
+		./../uvme/top/noc_arbiter_top.sv
+	-uvmhome CDNS-1.1d
+	+UVM_TESTNAME=noc_arb_base_test
+DEFINE gpdk045 /tools/cadence/FOUNDRY/analog/45nm/gpdk045
+|
+xrun: *W,DLCPTH (/home/vvtrainee20/cds.lib,5): cds.lib Permission denied '/tools/cadence/FOUNDRY/analog/45nm/gpdk045' (cds.lib command ignored).
+DEFINE FINFET_15nm  /home/sgeuser11/Desktop/finfet_work/FINfET_15nm_sch
+|
+xrun: *W,DLCPTH (/home/vvtrainee20/cds.lib,8): cds.lib Invalid path '/home/sgeuser11/Desktop/finfet_work/FINfET_15nm_sch' (cds.lib command ignored).
+DEFINE test /home/vvtrainee20/test
+|
+xrun: *W,DLCPTH (/home/vvtrainee20/cds.lib,9): cds.lib Invalid path '/home/vvtrainee20/test' (cds.lib command ignored).
+DEFINE gpdk045 /tools/cadence/FOUNDRY/analog/45nm/gpdk045
+|
+xrun: *W,DLCPTH (/home/vvtrainee20/cds.lib,5): cds.lib Permission denied '/tools/cadence/FOUNDRY/analog/45nm/gpdk045' (cds.lib command ignored).
+DEFINE FINFET_15nm  /home/sgeuser11/Desktop/finfet_work/FINfET_15nm_sch
+|
+xrun: *W,DLCPTH (/home/vvtrainee20/cds.lib,8): cds.lib Invalid path '/home/sgeuser11/Desktop/finfet_work/FINfET_15nm_sch' (cds.lib command ignored).
+DEFINE test /home/vvtrainee20/test
+|
+xrun: *W,DLCPTH (/home/vvtrainee20/cds.lib,9): cds.lib Invalid path '/home/vvtrainee20/test' (cds.lib command ignored).
+DEFINE gpdk045 /tools/cadence/FOUNDRY/analog/45nm/gpdk045
+|
+xrun: *W,DLCPTH (/home/vvtrainee20/cds.lib,5): cds.lib Permission denied '/tools/cadence/FOUNDRY/analog/45nm/gpdk045' (cds.lib command ignored).
+DEFINE FINFET_15nm  /home/sgeuser11/Desktop/finfet_work/FINfET_15nm_sch
+|
+xrun: *W,DLCPTH (/home/vvtrainee20/cds.lib,8): cds.lib Invalid path '/home/sgeuser11/Desktop/finfet_work/FINfET_15nm_sch' (cds.lib command ignored).
+DEFINE test /home/vvtrainee20/test
+|
+xrun: *W,DLCPTH (/home/vvtrainee20/cds.lib,9): cds.lib Invalid path '/home/vvtrainee20/test' (cds.lib command ignored).
+DEFINE gpdk045 /tools/cadence/FOUNDRY/analog/45nm/gpdk045
+|
+xrun: *W,DLCPTH (/home/vvtrainee20/cds.lib,5): cds.lib Permission denied '/tools/cadence/FOUNDRY/analog/45nm/gpdk045' (cds.lib command ignored).
+DEFINE FINFET_15nm  /home/sgeuser11/Desktop/finfet_work/FINfET_15nm_sch
+|
+xrun: *W,DLCPTH (/home/vvtrainee20/cds.lib,8): cds.lib Invalid path '/home/sgeuser11/Desktop/finfet_work/FINfET_15nm_sch' (cds.lib command ignored).
+DEFINE test /home/vvtrainee20/test
+|
+xrun: *W,DLCPTH (/home/vvtrainee20/cds.lib,9): cds.lib Invalid path '/home/vvtrainee20/test' (cds.lib command ignored).
+Recompiling... reason: file '../uvme/env/noc_arb_env.sv' is newer than expected.
+	expected: Tue Feb 28 22:49:46 2023
+	actual:   Tue Feb 28 22:54:02 2023
+DEFINE gpdk045 /tools/cadence/FOUNDRY/analog/45nm/gpdk045
+|
+xrun: *W,DLCPTH (/home/vvtrainee20/cds.lib,5): cds.lib Permission denied '/tools/cadence/FOUNDRY/analog/45nm/gpdk045' (cds.lib command ignored).
+DEFINE FINFET_15nm  /home/sgeuser11/Desktop/finfet_work/FINfET_15nm_sch
+|
+xrun: *W,DLCPTH (/home/vvtrainee20/cds.lib,8): cds.lib Invalid path '/home/sgeuser11/Desktop/finfet_work/FINfET_15nm_sch' (cds.lib command ignored).
+DEFINE test /home/vvtrainee20/test
+|
+xrun: *W,DLCPTH (/home/vvtrainee20/cds.lib,9): cds.lib Invalid path '/home/vvtrainee20/test' (cds.lib command ignored).
+Compiling UVM packages (uvm_pkg.sv cdns_uvm_pkg.sv) using uvmhome location /tools/cadence_march2021/XCELIUM2009/tools/methodology/UVM/CDNS-1.1d
+DEFINE gpdk045 /tools/cadence/FOUNDRY/analog/45nm/gpdk045
+|
+xmvlog: *W,DLCPTH (/home/vvtrainee20/cds.lib,5): cds.lib Permission denied '/tools/cadence/FOUNDRY/analog/45nm/gpdk045' (cds.lib command ignored).
+DEFINE FINFET_15nm  /home/sgeuser11/Desktop/finfet_work/FINfET_15nm_sch
+|
+xmvlog: *W,DLCPTH (/home/vvtrainee20/cds.lib,8): cds.lib Invalid path '/home/sgeuser11/Desktop/finfet_work/FINfET_15nm_sch' (cds.lib command ignored).
+DEFINE test /home/vvtrainee20/test
+|
+xmvlog: *W,DLCPTH (/home/vvtrainee20/cds.lib,9): cds.lib Invalid path '/home/vvtrainee20/test' (cds.lib command ignored).
+DEFINE gpdk045 /tools/cadence/FOUNDRY/analog/45nm/gpdk045
+|
+xmvlog: *W,DLCPTH (/home/vvtrainee20/cds.lib,5): cds.lib Permission denied '/tools/cadence/FOUNDRY/analog/45nm/gpdk045' (cds.lib command ignored).
+DEFINE FINFET_15nm  /home/sgeuser11/Desktop/finfet_work/FINfET_15nm_sch
+|
+xmvlog: *W,DLCPTH (/home/vvtrainee20/cds.lib,8): cds.lib Invalid path '/home/sgeuser11/Desktop/finfet_work/FINfET_15nm_sch' (cds.lib command ignored).
+DEFINE test /home/vvtrainee20/test
+|
+xmvlog: *W,DLCPTH (/home/vvtrainee20/cds.lib,9): cds.lib Invalid path '/home/vvtrainee20/test' (cds.lib command ignored).
+file: ./../uvme/package/noc_arbiter_package.sv
+	package worklib.noc_arbiter_package:sv
+		errors: 0, warnings: 0
+file: ./../uvme/top/noc_arbiter_top.sv
+	module worklib.noc_arbiter_top:sv
+		errors: 0, warnings: 0
+	Total errors/warnings found outside modules and primitives:
+		errors: 0, warnings: 3
+DEFINE gpdk045 /tools/cadence/FOUNDRY/analog/45nm/gpdk045
+|
+xrun: *W,DLCPTH (/home/vvtrainee20/cds.lib,5): cds.lib Permission denied '/tools/cadence/FOUNDRY/analog/45nm/gpdk045' (cds.lib command ignored).
+DEFINE FINFET_15nm  /home/sgeuser11/Desktop/finfet_work/FINfET_15nm_sch
+|
+xrun: *W,DLCPTH (/home/vvtrainee20/cds.lib,8): cds.lib Invalid path '/home/sgeuser11/Desktop/finfet_work/FINfET_15nm_sch' (cds.lib command ignored).
+DEFINE test /home/vvtrainee20/test
+|
+xrun: *W,DLCPTH (/home/vvtrainee20/cds.lib,9): cds.lib Invalid path '/home/vvtrainee20/test' (cds.lib command ignored).
+DEFINE gpdk045 /tools/cadence/FOUNDRY/analog/45nm/gpdk045
+|
+xrun: *W,DLCPTH (/home/vvtrainee20/cds.lib,5): cds.lib Permission denied '/tools/cadence/FOUNDRY/analog/45nm/gpdk045' (cds.lib command ignored).
+DEFINE FINFET_15nm  /home/sgeuser11/Desktop/finfet_work/FINfET_15nm_sch
+|
+xrun: *W,DLCPTH (/home/vvtrainee20/cds.lib,8): cds.lib Invalid path '/home/sgeuser11/Desktop/finfet_work/FINfET_15nm_sch' (cds.lib command ignored).
+DEFINE test /home/vvtrainee20/test
+|
+xrun: *W,DLCPTH (/home/vvtrainee20/cds.lib,9): cds.lib Invalid path '/home/vvtrainee20/test' (cds.lib command ignored).
+DEFINE gpdk045 /tools/cadence/FOUNDRY/analog/45nm/gpdk045
+|
+xmelab: *W,DLCPTH (/home/vvtrainee20/cds.lib,5): cds.lib Permission denied '/tools/cadence/FOUNDRY/analog/45nm/gpdk045' (cds.lib command ignored).
+DEFINE FINFET_15nm  /home/sgeuser11/Desktop/finfet_work/FINfET_15nm_sch
+|
+xmelab: *W,DLCPTH (/home/vvtrainee20/cds.lib,8): cds.lib Invalid path '/home/sgeuser11/Desktop/finfet_work/FINfET_15nm_sch' (cds.lib command ignored).
+DEFINE test /home/vvtrainee20/test
+|
+xmelab: *W,DLCPTH (/home/vvtrainee20/cds.lib,9): cds.lib Invalid path '/home/vvtrainee20/test' (cds.lib command ignored).
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		uvm_pkg
+		cdns_uvmapi
+		cdns_assert2uvm_pkg
+		cdns_uvm_pkg
+		noc_arbiter_package
+		noc_arbiter_top
+xmelab: *W,DSEMEL: This SystemVerilog design will be simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+DEFINE gpdk045 /tools/cadence/FOUNDRY/analog/45nm/gpdk045
+|
+xmvlog_cg: *W,DLCPTH (/home/vvtrainee20/cds.lib,5): cds.lib Permission denied '/tools/cadence/FOUNDRY/analog/45nm/gpdk045' (cds.lib command ignored).
+DEFINE FINFET_15nm  /home/sgeuser11/Desktop/finfet_work/FINfET_15nm_sch
+|
+xmvlog_cg: *W,DLCPTH (/home/vvtrainee20/cds.lib,8): cds.lib Invalid path '/home/sgeuser11/Desktop/finfet_work/FINfET_15nm_sch' (cds.lib command ignored).
+DEFINE test /home/vvtrainee20/test
+|
+xmvlog_cg: *W,DLCPTH (/home/vvtrainee20/cds.lib,9): cds.lib Invalid path '/home/vvtrainee20/test' (cds.lib command ignored).
+		worklib.noc_arbiter_top:sv <0x255f09f6>
+			streams:   1, words:   652
+		worklib.uvm_pkg:sv <0x152cef7e>
+			streams:  21, words: 15273
+		worklib.uvm_pkg:sv <0x209fc7c8>
+			streams:  21, words: 15219
+		worklib.uvm_pkg:sv <0x32b98ae2>
+			streams:  21, words: 15273
+		worklib.uvm_pkg:sv <0x21788a36>
+			streams:  21, words: 13574
+		worklib.uvm_pkg:sv <0x2ad18bca>
+			streams:  21, words: 19267
+		worklib.uvm_pkg:sv <0x5ce60e6d>
+			streams:  21, words: 19282
+		worklib.uvm_pkg:sv <0x13e40646>
+			streams:  22, words: 19917
+		worklib.uvm_pkg:sv <0x1b102ca2>
+			streams:  21, words: 17571
+		worklib.uvm_pkg:sv <0x22559728>
+			streams:  21, words: 17571
+		worklib.uvm_pkg:sv <0x4bd63803>
+			streams:  20, words: 17099
+		worklib.uvm_pkg:sv <0x1975ca52>
+			streams:  21, words: 19282
+		worklib.uvm_pkg:sv <0x451aac04>
+			streams:  22, words: 19917
+		worklib.uvm_pkg:sv <0x0aec4ebc>
+			streams:  21, words: 17571
+		worklib.uvm_pkg:sv <0x5d655639>
+			streams:  20, words: 17099
+		worklib.uvm_pkg:sv <0x40dfd214>
+			streams:  20, words: 17099
+		worklib.uvm_pkg:sv <0x086ebe19>
+			streams:  21, words: 19282
+		worklib.uvm_pkg:sv <0x05f999bc>
+			streams:  21, words: 16314
+		worklib.uvm_pkg:sv <0x4d6b70ba>
+			streams:  21, words: 15106
+		worklib.uvm_pkg:sv <0x4b187c7a>
+			streams:  21, words: 15106
+		worklib.uvm_pkg:sv <0x5f2a6a14>
+			streams:  22, words: 19767
+		worklib.uvm_pkg:sv <0x359a7414>
+			streams:  21, words: 15106
+		worklib.uvm_pkg:sv <0x3261a0b9>
+			streams:  21, words: 17571
+		worklib.uvm_pkg:sv <0x356841bd>
+			streams:  21, words: 17571
+		worklib.uvm_pkg:sv <0x77c08cb8>
+			streams:  20, words: 17099
+		worklib.noc_arbiter_package:sv <0x5dc7f163>
+			streams:   0, words:     0
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                       Instances  Unique
+		Modules:                       1       1
+		Verilog packages:              5       5
+		Registers:                 13812   10369
+		Named events:                  4      12
+		Initial blocks:              321     169
+		Parallel blocks:              26      27
+		Assertions:                    2       2
+		SV Class declarations:       213     327
+		SV Class specializations:    385     385
+	Writing initial simulation snapshot: worklib.noc_arbiter_top:sv
+DEFINE gpdk045 /tools/cadence/FOUNDRY/analog/45nm/gpdk045
+|
+xmsim: *W,DLCPTH (/home/vvtrainee20/cds.lib,5): cds.lib Permission denied '/tools/cadence/FOUNDRY/analog/45nm/gpdk045' (cds.lib command ignored).
+DEFINE FINFET_15nm  /home/sgeuser11/Desktop/finfet_work/FINfET_15nm_sch
+|
+xmsim: *W,DLCPTH (/home/vvtrainee20/cds.lib,8): cds.lib Invalid path '/home/sgeuser11/Desktop/finfet_work/FINfET_15nm_sch' (cds.lib command ignored).
+DEFINE test /home/vvtrainee20/test
+|
+xmsim: *W,DLCPTH (/home/vvtrainee20/cds.lib,9): cds.lib Invalid path '/home/vvtrainee20/test' (cds.lib command ignored).
+Loading snapshot worklib.noc_arbiter_top:sv .................... Done
+SVSEED default: 1
+xmsim: *W,RNDXCELON: A newer version of the SystemVerilog constraint solver is being used which has better support for array-solving, new solve-order mechanism, and seed stability enhancements..
+xmsim: *W,DSEM2009: This SystemVerilog design is simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+xcelium> source /tools/cadence_march2021/XCELIUM2009/tools/xcelium/files/xmsimrc
+xcelium> source /tools/cadence_march2021/XCELIUM2009/tools/methodology/UVM/CDNS-1.1d/additions/sv/files/tcl/uvm_sim.tcl
+xcelium> run
+----------------------------------------------------------------
+CDNS-UVM-1.1d (20.09-s009)
+(C) 2007-2013 Mentor Graphics Corporation
+(C) 2007-2013 Cadence Design Systems, Inc.
+(C) 2006-2013 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+  See http://www.eda.org/svdb/view.php?id=3313 for more details.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+  See http://www.eda.org/svdb/view.php?id=3770 for more details.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+UVM_INFO @ 0: reporter [RNTST] Running test noc_arb_base_test...
+UVM_INFO @ 0: reporter [UVMTOP] UVM testbench topology:
+---------------------------------------------------
+Name                Type                Size  Value
+---------------------------------------------------
+uvm_test_top        noc_arb_base_test   -     @2651
+  envh              noc_arb_env         -     @2714
+    apb_slave_top   apb_slave_agt_top   -     @2745
+    axi_master_top  axi_master_agt_top  -     @2776
+    axi_slave_top   axi_slave_agt_top   -     @2807
+---------------------------------------------------
+
+
+--- UVM Report catcher Summary ---
+
+
+Number of demoted UVM_FATAL reports  :    0
+Number of demoted UVM_ERROR reports  :    0
+Number of demoted UVM_WARNING reports:    0
+Number of caught UVM_FATAL reports   :    0
+Number of caught UVM_ERROR reports   :    0
+Number of caught UVM_WARNING reports :    0
+
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :    2
+UVM_WARNING :    0
+UVM_ERROR :    0
+UVM_FATAL :    0
+** Report counts by id
+[RNTST]     1
+[UVMTOP]     1
+Simulation complete via $finish(1) at time 0 FS + 179
+/tools/cadence_march2021/XCELIUM2009/tools/methodology/UVM/CDNS-1.1d/sv/src/base/uvm_root.svh:457     $finish;
+xcelium> exit
+TOOL:	xrun(64)	20.09-s009: Exiting on Feb 28, 2023 at 22:54:22 IST  (total: 00:00:05)
